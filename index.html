@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p id="demo"></p>
+    <script>
+        var text = "Te amo Valen Mi Amor";
+        var i = 0;
+        function typing() {
+            if (i < text.length) {
+                document.getElementById("demo").innerHTML += text.charAt(i);
+                i++;
+                setTimeout(typing, 200); //Velocidad de escritura
+            }
+        }
+        typing();
+    </script>
+</body>
+<h1><head>Hello Everyone</head></h1>
+ <p>Hola <strong>American School Way</strong> mi nombre es Santiago Cadavid, tengo 17 años y vivo en la ciudad de robledo<br>
+ cuando termine el curso me gustaría dedicarme a la programación y aprender a dominar sus lenguajes<br>
+  como por ejemplo el que estoy usando en este momento que se llama <strong>HTML</strong> el cual sirve mayormente<br>
+   para el desarrollo y estructuración de páginas web
+</html>
